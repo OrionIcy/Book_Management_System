@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/outline_search_24"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView">
+    </item>
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/outline_add_24"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/action_sort"
+        android:icon="@drawable/baseline_sort_24"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/namesort"
+                android:title="按姓名排序"/>
+            <item
+                android:id="@+id/nosort"
+                android:title="按学号排序"/>
+            <item
+                android:id="@+id/majorsort"
+                android:title="按专业排序"/>
+            <item
+                android:id="@+id/classsort"
+                android:title="按班级排序"/>
+        </menu>
+    </item>
+</menu>

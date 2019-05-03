@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.book_management_system">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoadingActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".com.AndroidUI.MainActivity">
+        </activity>
+        <activity android:name=".com.AndroidUI.student.StudentInsert"
+            android:label="添加学生记录">
+        </activity>
+        <activity android:name=".com.AndroidUI.student.StudentUpdate"
+            android:label="修改学生信息">
+        </activity>
+        <activity android:name=".com.AndroidUI.student.StudentShow"
+            android:label="所有学生">
+        </activity>
+
+        <activity android:name=".com.AndroidUI.book.BookInsert"
+            android:label="添加图书记录">
+        </activity>
+        <activity android:name=".com.AndroidUI.book.BookUpdate"
+            android:label="修改图书信息">
+        </activity>
+        <activity android:name=".com.AndroidUI.book.BookShow">
+        </activity>
+        <activity android:name=".com.AndroidUI.borrowing.BorrowingShow">
+        </activity>
+        <activity android:name=".com.AndroidUI.student.StudentBorrowedWhich"
+            android:label="图书借阅情况">
+        </activity>
+
+        <activity android:name=".com.AndroidUI.SearchableActivity">
+        </activity>
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".com.AndroidUI.SearchableActivity"/>
+    </application>
+
+</manifest>

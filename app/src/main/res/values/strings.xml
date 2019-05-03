@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">图书管理系统</string>
+    <string name="action_search">搜索...</string>
+    <string name="action_add">添加...</string>
+    <string name="action_sort">选择排序方式</string>
+    <string name="none">没有与搜索条件匹配的项。</string>
+    <string name="no">no</string>
+    <string name="name">name</string>
+    <string name="classes">class</string>
+    <string name="major">major</string>
+    <string name="phone">phone</string>
+</resources>
